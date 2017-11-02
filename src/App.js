@@ -25,7 +25,7 @@ class App extends Component {
           <button onClick={this.handleClick}>Click Me!</button>
         </header>
         <Modal>
-          <header>Modal</header>
+          <header><h4>Testing Modal</h4></header>
           <section>
             Body
           </section>
