@@ -19,7 +19,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h4>Testing Changed</h4>
+        <h4>Testing Changed Polling</h4>
         <header>
           <label>{ this.state.count }</label>
           <button onClick={this.handleClick}>Click Me!</button>
