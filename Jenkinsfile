@@ -12,9 +12,9 @@ pipeline {
         stage('Deploy') {
             steps {
               echo 'Clear Folder'
-              sh 'rm -rf /usr/share/nginx/html/*'
+              sh 'rm -rf /var/www/react/*'
               echo 'Copy file'
-              sh 'mv ./build/* /usr/share/nginx/html'
+              sh 'mv ./build/* /var/www/react'
             }
         }
 
