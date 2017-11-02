@@ -27,7 +27,7 @@ class App extends Component {
         <Modal>
           <header><h4>Testing Modal</h4></header>
           <section>
-            Body
+            Modal Body
           </section>
         </Modal>
       </div>
