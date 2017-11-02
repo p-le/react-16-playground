@@ -2,6 +2,9 @@ pipeline {
     agent any 
     stages {
         stage('Build') { 
+            environment {
+                SECRET_KEY = credentials('react')
+            }
             steps {
                 echo 'Install dependencies'
                 sh 'yarn install'
